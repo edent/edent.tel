@@ -1,70 +1,36 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   id="Layer_1"
-   version="1.1"
-   viewBox="0 0 512 512"
-   xml:space="preserve"
-   inkscape:version="0.48.4 r9939"
-   width="100%"
-   height="100%"
-   sodipodi:docname="1491593162_lock.svg"><metadata
-     id="metadata3069"><rdf:RDF><cc:Work
-         rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
-     id="defs3067" /><sodipodi:namedview
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1"
-     objecttolerance="10"
-     gridtolerance="10"
-     guidetolerance="10"
-     inkscape:pageopacity="0"
-     inkscape:pageshadow="2"
-     inkscape:window-width="1360"
-     inkscape:window-height="700"
-     id="namedview3065"
-     showgrid="false"
-     inkscape:zoom="0.51757813"
-     inkscape:cx="73.508688"
-     inkscape:cy="170.92141"
-     inkscape:window-x="0"
-     inkscape:window-y="0"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="Layer_1" /><style
-     type="text/css"
-     id="style3056">
-	.st0{fill:#134563;}
-</style>
-<rect height="512" id="rect2987" rx="64" ry="64" style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none" width="512" x="0" y="0"/>
-
-<g
-     id="g3058"
-     transform="matrix(8.3507386,0,0,8.3507307,-10.68735,-4.8058461)"><g
-       id="Icon-Lock"
-       transform="translate(284,430)"><path
-         class="st0"
-         d="m -237.7,-401.3 h -3 v -6.4 c 0,-6.2 -5.1,-11.3 -11.3,-11.3 -6.2,0 -11.3,5.1 -11.3,11.3 v 6.4 h -3 v -6.4 c 0,-7.9 6.4,-14.3 14.3,-14.3 7.9,0 14.3,6.4 14.3,14.3 v 6.4"
-         id="Fill-66"
-         inkscape:connector-curvature="0"
-         style="fill:#134563" /><path
-         class="st0"
-         d="m -239.2,-374.1 h -25.6 c -2.6,0 -4.8,-2.2 -4.8,-4.8 v -19.2 c 0,-2.6 2.2,-4.8 4.8,-4.8 h 25.6 c 2.6,0 4.8,2.2 4.8,4.8 v 19.2 c 0,2.7 -2.2,4.8 -4.8,4.8 l 0,0 z m -25.6,-25.6 c -0.9,0 -1.6,0.7 -1.6,1.6 v 19.2 c 0,0.9 0.7,1.6 1.6,1.6 h 25.6 c 0.9,0 1.6,-0.7 1.6,-1.6 v -19.2 c 0,-0.9 -0.7,-1.6 -1.6,-1.6 h -25.6 l 0,0 z"
-         id="Fill-67"
-         inkscape:connector-curvature="0"
-         style="fill:#134563" /><path
-         class="st0"
-         d="m -248.8,-393.3 c 0,1.8 -1.4,3.2 -3.2,3.2 -1.8,0 -3.2,-1.4 -3.2,-3.2 0,-1.8 1.4,-3.2 3.2,-3.2 1.8,0 3.2,1.5 3.2,3.2"
-         id="Fill-68"
-         inkscape:connector-curvature="0"
-         style="fill:#134563" /><polyline
-         class="st0"
-         id="Fill-69"
-         points="-251.2,-393.3 -252.8,-393.3 -254.4,-383.7 -249.6,-383.7 -251.2,-393.3    "
-         style="fill:#134563" /></g></g></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+	xmlns:cc="http://creativecommons.org/ns#"
+	version="1.1"
+	viewBox="0 0 512 512">
+	<g>
+		<rect
+			height="100%"
+			width="100%"
+			rx="15%"
+			ry="15%"
+			style="fill:#FFFFFF;
+					fill-opacity:1;
+					fill-rule:nonzero;
+					stroke:none" />
+		<g
+			transform="matrix(8,0,0,8,0,0)">
+			<g
+				id="Icon-Lock"
+				transform="translate(284,430)">
+				<path
+					d="m -237.7,-401.3 h -3 v -6.4 c 0,-6.2 -5.1,-11.3 -11.3,-11.3 -6.2,0 -11.3,5.1 -11.3,11.3 v 6.4 h -3 v -6.4 c 0,-7.9 6.4,-14.3 14.3,-14.3 7.9,0 14.3,6.4 14.3,14.3 v 6.4"
+					style="fill:#134563" />
+				<path
+					d="m -239.2,-374.1 h -25.6 c -2.6,0 -4.8,-2.2 -4.8,-4.8 v -19.2 c 0,-2.6 2.2,-4.8 4.8,-4.8 h 25.6 c 2.6,0 4.8,2.2 4.8,4.8 v 19.2 c 0,2.7 -2.2,4.8 -4.8,4.8 l 0,0 z m -25.6,-25.6 c -0.9,0 -1.6,0.7 -1.6,1.6 v 19.2 c 0,0.9 0.7,1.6 1.6,1.6 h 25.6 c 0.9,0 1.6,-0.7 1.6,-1.6 v -19.2 c 0,-0.9 -0.7,-1.6 -1.6,-1.6 h -25.6 l 0,0 z"
+					style="fill:#134563" />
+				<path
+					d="m -248.8,-393.3 c 0,1.8 -1.4,3.2 -3.2,3.2 -1.8,0 -3.2,-1.4 -3.2,-3.2 0,-1.8 1.4,-3.2 3.2,-3.2 1.8,0 3.2,1.5 3.2,3.2"
+					style="fill:#134563" />
+				<polyline
+					points="-251.2,-393.3 -252.8,-393.3 -254.4,-383.7 -249.6,-383.7 -251.2,-393.3"
+					style="fill:#134563" />
+			</g>
+		</g>
+	</g>
+</svg>
