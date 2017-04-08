@@ -668,10 +668,14 @@ p {
 	margin: 0.25em;
 }
 .row {
+	-webkit-display: flex;
+	-ms-display: flex;
 	display: flex;
 	margin-top: 1em;
 }
 .icon {
+	-webkit-flex: 1;
+	-ms-flex: 1;
 	flex: 1;
 }
 .icon img {
