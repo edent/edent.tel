@@ -15,9 +15,7 @@
 					stroke:none" />
 		<g
 			transform="matrix(8,0,0,8,0,0)">
-			<g
-				id="Icon-Lock"
-				transform="translate(284,430)">
+			<g transform="translate(284,430)">
 				<path
 					d="m -237.7,-401.3 h -3 v -6.4 c 0,-6.2 -5.1,-11.3 -11.3,-11.3 -6.2,0 -11.3,5.1 -11.3,11.3 v 6.4 h -3 v -6.4 c 0,-7.9 6.4,-14.3 14.3,-14.3 7.9,0 14.3,6.4 14.3,14.3 v 6.4"
 					style="fill:#134563" />
