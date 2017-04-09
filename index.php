@@ -7,6 +7,16 @@
 	<meta name="description" content="@edent all over the web">
 	<meta name="author" content="Terence Eden">
 
+	<meta name="twitter:card" content="summary" />
+	<meta name="twitter:creator" content="@edent" />
+	<meta property="og:url" content="https://edent.tel/" />
+	<meta property="og:title" content="Contact @edent" />
+	<meta property="og:description" content="Terence Eden's contact details - voice, text, fax. OK. Maybe not fax..." />
+	<meta property="og:image" content="https://edent.tel/preview.png" />
+	<meta property="og:image:width"  content="380" />
+	<meta property="og:image:height" content="380" />
+
+
 	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 	<link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
 	<link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
