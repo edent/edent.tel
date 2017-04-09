@@ -678,11 +678,11 @@ p {
 	-ms-flex: 1;
 	flex: 1;
 }
-.icon img {
-	max-width: 80%;
+.icon svg {
+	max-width: 85%;
 }
 .square {
-	border-radius: 15%;
+	border-radius: 14%;
 }
 .screen {
 	background-color: #2a2228;

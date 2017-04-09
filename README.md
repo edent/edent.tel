@@ -10,7 +10,7 @@ A semantic "about" page.
 
 ### Images
 
-Image based on:
+Images based on:
 
 * [Social Media Icons by Aha-Soft](https://www.iconfinder.com/iconsets/social-flat-rounded-rects) - CC-BY
 * [Phone Icon](https://www.iconfinder.com/icons/1807538/phone_icon#size=128) - Free
