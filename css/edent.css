@@ -686,6 +686,7 @@ p {
 }
 .screen {
 	background-color: #2a2228;
+	overflow: hidden;
 }
 .download {
 	text-decoration: underline;
@@ -694,4 +695,10 @@ a{
 	color: white;
 	text-decoration: none;
 	outline: 0;
+}
+
+#screenscroll {
+	height: 99%;
+	overflow: auto;
+	padding-right: 15px;
 }
