@@ -11,11 +11,10 @@
 	<meta name="twitter:creator" content="@edent" />
 	<meta property="og:url" content="https://edent.tel/" />
 	<meta property="og:title" content="Contact @edent" />
-	<meta property="og:description" content="Terence Eden's contact details - voice, text, fax. OK. Maybe not fax..." />
+	<meta property="og:description" content="Terence Eden's contact details - voice, text, fax. OK. Maybe not fax…" />
 	<meta property="og:image" content="https://edent.tel/preview.png" />
 	<meta property="og:image:width"  content="380" />
 	<meta property="og:image:height" content="380" />
-
 
 	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 	<link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
@@ -44,9 +43,7 @@
 			<p itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"><span itemprop="addressLocality">Oxford</span>, <span itemprop="addressCountry">UK</span></p>
 			<p class="p-note">Currently running <span itemprop="jobTitle">Open Standards</span> for the <span itemprop="worksFor">UK Government Digital Service.</span></p>
 			<p title="I speak a little Chinese" lang="zh">我说一点中文.</p>
-			<div>
-				<a href="vcard.php" class="download">Download my contact details.</a>
-			</div>
+			<div><a href="vcard.php" class="download">Download my contact details.</a></div>
 <?php
 	$str = file_get_contents('config.json');
 	$json = json_decode($str, true);
@@ -73,23 +70,24 @@
 
 	function generate_svg($title,$alt,$colour,$path){
 		$svg ='<svg
-			version="1.1"
-			role="img"
-			aria-labelledby="'.$title.'-title"
-			class="square"
-			viewBox="0 0 512 512">
-			<title id="'.$title.'-title">'.$alt.'</title>
-			<g>
-				<rect
-					height="100%"
-					width="100%"
-					rx="15%"
-					ry="15%"';
-		$svg .=' style="fill:#'.$colour.';" />';
-		$svg .=$path;
-		$svg .='</g>
-		</svg>';
-		return $svg;
+					version="1.1"
+					role="img"
+					aria-labelledby="'.$title.'-title"
+					class="square"
+					viewBox="0 0 512 512">
+					<title id="'.$title.'-title">'.$alt.'</title>
+					<g>
+						<rect
+							height="100%"
+							width="100%"
+							rx="15%"
+							ry="15%"';
+		$svg .= ' 		style="fill:#'.$colour.';" />';
+		$svg .= $path;
+		$svg .= '</g>
+				</svg>';
+		//	Remove unecessary whitespace
+		return preg_replace('/\s+/', ' ',$svg);
 	}
 
 ?>
