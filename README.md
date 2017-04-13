@@ -16,6 +16,7 @@ Images based on:
 * [Phone Icon](https://www.iconfinder.com/icons/1807538/phone_icon#size=128) - Free
 * [Lock Icon](https://www.iconfinder.com/icons/1814107/lock_padlock_secure_icon#size=512) - MIT
 * [Wire Logo](https://commons.wikimedia.org/wiki/File:Wire_software_logo.svg) - Public Domain
+* [Signal Logo](https://github.com/WhisperSystems/Signal-iOS/blob/master/Signal/Images.xcassets/logoSignal.imageset/logoSignal.pdf) - GPLv3
 * [HTML5 Shield](https://www.w3.org/html/logo/) - CC-BY
 
 They retain their original licenses.

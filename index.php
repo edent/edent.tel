@@ -26,7 +26,7 @@
 
 	<style>
 	<?php
-		echo file_get_contents("css/edent.css");
+		echo file_get_contents("css/edent.min.css");
 	?>
 	</style>
 
@@ -39,7 +39,7 @@
 	<div class="sensor"></div>
 	<div class="speaker"></div>
 	<div class="screen">
-		<div itemscope itemtype="http://schema.org/Person" class="h-card" rel="me" id="screenscroll">
+		<div itemscope itemtype="http://schema.org/Person" class="h-card" rel="me">
 			<h1 itemprop="name" class="p-name">Terence Eden</h1>
 			<p itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"><span itemprop="addressLocality">Oxford</span>, <span itemprop="addressCountry">UK</span></p>
 			<p class="p-note">Currently running <span itemprop="jobTitle">Open Standards</span> for the <span itemprop="worksFor">UK Government Digital Service.</span></p>
@@ -85,7 +85,7 @@
 					width="100%"
 					rx="15%"
 					ry="15%"';
-		$svg .='			style="fill:#'.$colour.';" />';
+		$svg .=' style="fill:#'.$colour.';" />';
 		$svg .=$path;
 		$svg .='</g>
 		</svg>';
