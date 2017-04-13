@@ -1,0 +1,5 @@
+/* TEAM */
+	Webmaster: Terence Eden
+	Blog: https://shkspr.mobi/blog/
+	Twitter: @edent
+	Location: Oxford, UK.
