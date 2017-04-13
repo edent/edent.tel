@@ -43,7 +43,7 @@
 			<p itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"><span itemprop="addressLocality">Oxford</span>, <span itemprop="addressCountry">UK</span></p>
 			<p class="p-note">Currently running <span itemprop="jobTitle">Open Standards</span> for the <span itemprop="worksFor">UK Government Digital Service.</span></p>
 			<p title="I speak a little Chinese" lang="zh">我说一点中文.</p>
-			<div><a href="vcard.php" class="download">Download my contact details.</a></div>
+			<p><a href="vcard.php" class="download">Download my contact details.</a></p>
 <?php
 	$str = file_get_contents('config.json');
 	$json = json_decode($str, true);
@@ -59,12 +59,10 @@
 
 			$svg = generate_svg($key, $img["alt"], $img["colour"], $img["svg"]);
 
-			echo "<a {$link} {$itemprop} {$rel} {$class} {$target}>";
-				echo "<figure>";
+			echo "<a {$link} {$itemprop} {$rel} {$class} {$target}><span>";
 				echo 	$svg;
-				echo 	"<figcaption>{$text}</figcaption>";
-				echo "</figure>";
-			echo "</a>";
+				echo 	"{$text}";
+			echo "</span></a>";
 		echo "</div>";
 	}
 
@@ -89,7 +87,6 @@
 		//	Remove unecessary whitespace
 		return preg_replace('/\s+/', ' ',$svg);
 	}
-
 ?>
 		</div>
 	</div>

@@ -1,80 +1,33 @@
 /*! normalize.css v6.0.0 | MIT License | github.com/necolas/normalize.css */
-/* Document
-   ========================================================================== */
-
-/**
- * 1. Correct the line height in all browsers.
- * 2. Prevent adjustments of font size after orientation changes in
- *    IE on Windows Phone and in iOS.
- */
-
 html {
-  line-height: 1.15; /* 1 */
-  -ms-text-size-adjust: 100%; /* 2 */
-  -webkit-text-size-adjust: 100%; /* 2 */
+	line-height: 1.15; /* 1 */
+	-ms-text-size-adjust: 100%; /* 2 */
+	-webkit-text-size-adjust: 100%; /* 2 */
 }
-
-/* Sections
-   ========================================================================== */
-
-/**
- * Correct the font size and margin on `h1` elements within `section` and
- * `article` contexts in Chrome, Firefox, and Safari.
- */
 
 h1 {
-  font-size: 2em;
-  margin: 0;
+	font-size: 2em;
+	margin: 0;
 }
-
-/* Grouping content
-   ========================================================================== */
-
-/**
- * Add the correct display in IE 9-.
- * 1. Add the correct display in IE.
- */
-
-figcaption,
-figure { /* 1 */
-  display: block;
-  font-size: 0.95em;
-}
-
-/**
- * Add the correct margin in IE 8.
- */
-
-figure {
-  margin: 0;
-}
-
-/* Text-level semantics
-   ========================================================================== */
-
-/**
- * 1. Remove the gray background on active links in IE 10.
- * 2. Remove gaps in links underline in iOS 8+ and Safari 8+.
- */
 
 a {
-  background-color: transparent; /* 1 */
-  -webkit-text-decoration-skip: objects; /* 2 */
+	background-color: transparent; /* 1 */
+	-webkit-text-decoration-skip: objects; /* 2 */
+	color: white;
+	text-decoration: none;
+	outline: 0;
 }
 
-
-/* Embedded content
-   ========================================================================== */
 /**
  * Hide the overflow in IE.
  */
 
 svg:not(:root) {
-  overflow: hidden;
+	overflow: hidden;
 }
 
 /* Phone Display
-   ========================================================================== */
+	 ========================================================================== */
 
 .marvel-device {
 	display: inline-block;
@@ -139,7 +92,6 @@ svg:not(:root) {
 
 .marvel-device.htc-one .top-bar {
 	width: calc(100% - 8px);
-/*	height: 85%;*/
 	position: absolute;
 	background: #424242;
 	top: 50px;
@@ -226,8 +178,9 @@ body {
 	background-color: #738596;
 	margin: 2;
 }
+
 p {
-	margin: 0.25em;
+	margin: 0;
 }
 
 .icon {
@@ -244,16 +197,11 @@ p {
 }
 .screen {
 	background-color: #2a2228;
-	overflow: hidden;
 }
 .download {
 	text-decoration: underline;
 }
-a{
-	color: white;
-	text-decoration: none;
-	outline: 0;
-}
+
 #bottomspeaker {
 	position: relative;
 	top: 40px;

@@ -1,7 +1,7 @@
 {
 	"avatar": {
 		"colour": "000000",
-		"link": "https://www.google.com/search?tbm=isch&q=Terence%20Eden",
+		"link": "",
 		"target":null,
 		"alt": "Terence Eden has a beard and is smiling",
 		"text":"Terence Eden",
@@ -103,7 +103,7 @@
 		"link": "weixin://",
 		"target":"_self",
 		"alt": "WeChat - the popular Chinese messaging service",
-		"text":"微信",
+		"text":"<span lang=\"zh\" style=\"margin: 0 1em 0 1em;\">微信</span>",
 		"itemprop":"",
 		"rel":"",
 		"class":"",
