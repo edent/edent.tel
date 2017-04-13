@@ -50,11 +50,8 @@
 <?php
 	$str = file_get_contents('config.json');
 	$json = json_decode($str, true);
-	$counter = 0;
+
 	foreach ($json as $key => $img) {
-		if (0 == $counter){
-			echo '<div class="row">';
-		}
 		echo '<div class="icon">';
 			$link     = ($img["link"]     != null) ? "href=\"{$img["link"]}\"" : "";
 			$itemprop = ($img["itemprop"] != null) ? "itemprop=\"{$img["itemprop"]}\"" : "";
@@ -72,12 +69,6 @@
 				echo "</figure>";
 			echo "</a>";
 		echo "</div>";
-		$counter++;
-		if (4 == $counter) {
-			echo "</div>";
-			$counter = 0;
-		}
-
 	}
 
 	function generate_svg($title,$alt,$colour,$path){
@@ -104,6 +95,7 @@
 ?>
 		</div>
 	</div>
+	<div class="speaker" id="bottomspeaker"></div>
 </div>
 </body>
 </html>
