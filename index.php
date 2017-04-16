@@ -57,7 +57,7 @@
 			$target   = ($img["target"]   != null) ? "target=\"{$img["target"]}\"" : "";
 			$text     = ($img["text"]     != null) ? $img["text"] : "";
 
-			$svg = generate_svg($key, $img["alt"], $img["colour"], $img["svg"]);
+			$svg = generate_svg($key, $img["alt"]);
 
 			echo "<a {$link} {$itemprop} {$rel} {$class} {$target}><span>";
 				echo 	$svg;
@@ -66,27 +66,25 @@
 		echo "</div>";
 	}
 
-	function generate_svg($title,$alt,$colour,$path){
-		$svg ='<svg
-					version="1.1"
-					role="img"
-					aria-labelledby="'.$title.'-title"
-					class="square"
-					viewBox="0 0 512 512">
-					<title id="'.$title.'-title">'.$alt.'</title>
-					<g>
-						<rect
-							height="100%"
-							width="100%"
-							rx="15%"
-							ry="15%"';
-		$svg .= ' 		style="fill:#'.$colour.';" />';
-		$svg .= $path;
-		$svg .= '</g>
-				</svg>';
-		//	Remove unecessary whitespace
-		return preg_replace('/\s+/', ' ',$svg);
-	}
+	function generate_svg($title,$alt){
+			//	Get the tiny SVG
+			$svg_file = file_get_contents('svg/'.$title.'.svg');
+
+			//	Add ARIA labels for accessibility
+			$start ='<svg
+							version="1.1"
+							role="img"
+							aria-labelledby="'.$title.'-title"
+							class="square"
+							viewBox="0 0 512 512">
+							<title id="'.$title.'-title">'.$alt.'</title>';
+
+			//	Replace the original <svg> tag and add the <title> tag
+			$svg = $start . substr( $svg_file, strpos($svg_file, ">")+1 );
+
+			//	Remove unecessary whitespace
+			return preg_replace('/\s+/', ' ',$svg);
+		}
 ?>
 		</div>
 	</div>

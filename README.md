@@ -10,6 +10,8 @@ A semantic "about" page.
 
 ### Images
 
+All icons can be found at https://github.com/edent/SuperTinySocialIcons/
+
 Images based on:
 
 * [Social Media Icons by Aha-Soft](https://www.iconfinder.com/iconsets/social-flat-rounded-rects) - CC-BY
@@ -17,6 +19,7 @@ Images based on:
 * [Lock Icon](https://www.iconfinder.com/icons/1814107/lock_padlock_secure_icon#size=512) - MIT
 * [Wire Logo](https://commons.wikimedia.org/wiki/File:Wire_software_logo.svg) - Public Domain
 * [Signal Logo](https://github.com/WhisperSystems/Signal-iOS/blob/master/Signal/Images.xcassets/logoSignal.imageset/logoSignal.pdf) - GPLv3
+* [RSS Icon](https://commons.wikimedia.org/wiki/File:Generic_Feed-icon.svg) - MPL 1.1
 * [HTML5 Shield](https://www.w3.org/html/logo/) - CC-BY
 
 They retain their original licenses.

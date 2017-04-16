@@ -176,11 +176,11 @@ body {
 	font-family: sans-serif;
 	font-size: 0.9em;
 	background-color: #738596;
-	margin: 2;
+	margin: 2px;
 }
 
 p {
-	margin: 0;
+	margin: 0.25em;
 }
 
 .icon {
@@ -188,6 +188,7 @@ p {
 	width: 20%;
 	display: inline-block;
 	padding-top: 1em;
+	font-size: .9em;
 }
 .icon svg {
 	max-width: 85%;
