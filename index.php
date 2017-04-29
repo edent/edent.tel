@@ -1,9 +1,11 @@
-<!doctype html>
+<?php
+
+$html = '<!doctype html>
 <html lang="en-GB">
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Terence Eden's Contact Details</title>
+	<title>Terence Eden\'s Contact Details</title>
 	<meta name="description" content="@edent all over the web">
 	<meta name="author" content="Terence Eden">
 
@@ -11,7 +13,7 @@
 	<meta name="twitter:creator" content="@edent" />
 	<meta property="og:url" content="https://edent.tel/" />
 	<meta property="og:title" content="Contact @edent" />
-	<meta property="og:description" content="Terence Eden's contact details - voice, text, fax. OK. Maybe not fax…" />
+	<meta property="og:description" content="Terence Eden\'s contact details - voice, text, fax. OK. Maybe not fax…" />
 	<meta property="og:image" content="https://edent.tel/preview.png" />
 	<meta property="og:image:width"  content="380" />
 	<meta property="og:image:height" content="380" />
@@ -23,11 +25,10 @@
 	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
 	<meta name="theme-color" content="#ffffff">
 
-	<style>
-	<?php
-		echo file_get_contents("css/edent.min.css");
-	?>
-	</style>
+	<style>';
+		$html .= file_get_contents("css/edent.min.css");
+
+$html .='</style>
 
 	<base target="_blank">
 </head>
@@ -44,12 +45,13 @@
 			<p class="p-note">Currently running <span itemprop="jobTitle">Open Standards</span> for the <span itemprop="worksFor">UK Government Digital Service.</span></p>
 			<p title="I speak a little Chinese" lang="zh">我说一点中文.</p>
 			<p><a href="vcard.php" class="download">Download my contact details.</a></p>
-<?php
+			<ul>';
+
 	$str = file_get_contents('config.json');
 	$json = json_decode($str, true);
 
 	foreach ($json as $key => $img) {
-		echo '<div class="icon">';
+		$html .= '<li class="icon">';
 			$link     = ($img["link"]     != null) ? "href=\"{$img["link"]}\"" : "";
 			$itemprop = ($img["itemprop"] != null) ? "itemprop=\"{$img["itemprop"]}\"" : "";
 			$rel      = ($img["rel"]      != null) ? "rel=\"{$img["rel"]}\"" : "";
@@ -59,11 +61,12 @@
 
 			$svg = generate_svg($key, $img["alt"]);
 
-			echo "<a {$link} {$itemprop} {$rel} {$class} {$target}><span>";
-				echo 	$svg;
-				echo 	"{$text}";
-			echo "</span></a>";
-		echo "</div>";
+			$html .= "<a {$link} {$itemprop} {$rel} {$class} {$target}>";
+			$html .= 	$svg;
+			$html .= "<span aria-hidden=\"true\">";
+			$html .= 	"{$text}";
+			$html .= "</span></a>";
+		$html .= "</li>";
 	}
 
 	function generate_svg($title,$alt){
@@ -72,23 +75,37 @@
 
 			//	Add ARIA labels for accessibility
 			$start ='<svg
-							version="1.1"
 							role="img"
 							aria-labelledby="'.$title.'-title"
-							class="square"
-							viewBox="0 0 512 512">
-							<title id="'.$title.'-title">'.$alt.'</title>';
+							class="square" ';
+			$title = 			'<title id="'.$title.'-title">'.$alt.'</title>';
 
-			//	Replace the original <svg> tag and add the <title> tag
-			$svg = $start . substr( $svg_file, strpos($svg_file, ">")+1 );
+			//	Augment the original <svg> tag
+			$svg = str_replace("<svg ",$start, $svg_file);
+
+ 			//	And add the <title> tag
+			$svg = substr_replace($svg, $title, strpos($svg, ">")+1, 0 );
 
 			//	Remove unecessary whitespace
 			return preg_replace('/\s+/', ' ',$svg);
 		}
-?>
-		</div>
+
+$html .= '</ul>		</div>
 	</div>
 	<div class="speaker" id="bottomspeaker"></div>
 </div>
 </body>
-</html>
+</html>';
+
+//	Minify
+$html = str_replace(array("\r", "\n", "\t"), ' ', $html);
+$html = str_replace(array("   "), ' ', $html);
+$html = str_replace(array("> <"), "><", $html);
+$html = str_replace(array("\" >"), "\">", $html);
+$html = str_replace(array("  "), ' ', $html);
+$html = str_replace(array("\" />"), "\"/>", $html);
+$html = str_replace(array("   "), ' ', $html);
+$html = str_replace(array("> <"), "><", $html);
+
+echo $html;
+die();

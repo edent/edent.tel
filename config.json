@@ -2,7 +2,7 @@
 	"avatar": {
 		"link": "",
 		"target":null,
-		"alt": "Terence Eden has a beard and is smiling",
+		"alt": "Terence Eden has a beard and is smiling. His hair is longer than yours.",
 		"text":"Terence Eden",
 		"itemprop":null,
 		"rel":null,
@@ -11,7 +11,7 @@
 	"phone": {
 		"link": "tel:+447717512963",
 		"target":"_self",
-		"alt": "Call Terence Eden",
+		"alt": "Call Terence Eden's mobile phone",
 		"text":"+44 7717 512 963",
 		"itemprop":"telephone",
 		"rel":null,
@@ -20,7 +20,7 @@
 	"signal": {
 		"link": "sms:+447717512963",
 		"target":"_self",
-		"alt": "Signal encrypted calls and texts",
+		"alt": "Send an SMS to Terence",
 		"text":"Signal",
 		"itemprop":null,
 		"rel":null,
@@ -56,7 +56,7 @@
 	"wordpress": {
 		"link": "https://shkspr.mobi/blog/",
 		"target":null,
-		"alt": "My Blog",
+		"alt": "Read Terence's blog",
 		"text":"Blog",
 		"itemprop":"sameAs",
 		"rel":"me",
@@ -65,7 +65,7 @@
 	"whatsapp": {
 		"link": "https://api.whatsapp.com/send?phone=447717512963",
 		"target":null,
-		"alt": "WhatsApp",
+		"alt": "Send WhatsApp message",
 		"text":"Whats<wbr>App",
 		"itemprop":null,
 		"rel":null,
@@ -74,7 +74,7 @@
 	"telegram": {
 		"link": "https://t.me/edent",
 		"target":null,
-		"alt": "A paper aeroplane",
+		"alt": "Send a message on Telegram",
 		"text":"Telegram",
 		"itemprop":null,
 		"rel":null,
@@ -83,7 +83,7 @@
 	"wechat": {
 		"link": "weixin://",
 		"target":"_self",
-		"alt": "WeChat - the popular Chinese messaging service",
+		"alt": "Use WeChat - the popular Chinese messaging service",
 		"text":"<span lang=\"zh\" style=\"margin: 0 1em 0 1em; font-size: 1.25em;\">微信</span>",
 		"itemprop":null,
 		"rel":null,
@@ -92,7 +92,7 @@
 	"github": {
 		"link": "https://github.com/edent",
 		"target":null,
-		"alt": "An octocat",
+		"alt": "GitHub code",
 		"text":"GitHub",
 		"itemprop":"sameAs",
 		"rel":"me",
@@ -101,7 +101,7 @@
 	"linkedin": {
 		"link": "https://linkedin.com/in/TerenceEden/",
 		"target":null,
-		"alt": "The boring social network",
+		"alt": "LinkedIn - the boring social network",
 		"text":"LinkedIn",
 		"itemprop":"sameAs",
 		"rel":"me",
@@ -137,7 +137,7 @@
 	"youtube": {
 		"link": "https://youtube.com/edent",
 		"target":null,
-		"alt": "Videos of Terence Eden",
+		"alt": "Videos of Terence Eden on YouTube",
 		"text":"YouTube",
 		"itemprop":"sameAs",
 		"rel":"me",
@@ -146,7 +146,7 @@
 	"vimeo": {
 		"link": "https://vimeo.com/edent",
 		"target":null,
-		"alt": "Vimeo",
+		"alt": "Vimeo videos of Terence",
 		"text":"Vimeo",
 		"itemprop":null,
 		"rel":null,
@@ -155,16 +155,16 @@
 	"paypal": {
 		"link": "https://paypal.me/edent/gbp10",
 		"target":null,
-		"alt": "PayPal",
+		"alt": "Send Terence money using PayPal",
 		"text":"Pay Me",
 		"itemprop":null,
 		"rel":null,
 		"class":null
 	},
 	"amazon": {
-		"link": "http://amzn.to/2o95rA8",
+		"link": "https://amzn.to/2o95rA8",
 		"target":null,
-		"alt": "Buy me a gift from Amazon",
+		"alt": "Buy Terence a gift from Amazon",
 		"text":"Wishlist",
 		"itemprop":null,
 		"rel":null,
@@ -173,7 +173,7 @@
 	"stackoverflow": {
 		"link": "https://stackoverflow.com/users/1127699/terence-eden",
 		"target":null,
-		"alt": "Where I learn to code",
+		"alt": "StackOverflow profile",
 		"text":"Stack Overflow",
 		"itemprop":"sameAs",
 		"rel":"me",
@@ -182,7 +182,7 @@
 	"flickr": {
 		"link": "https://www.flickr.com/people/edent",
 		"target":null,
-		"alt": "My Photos",
+		"alt": "My Photos on flikr",
 		"text":"flickr",
 		"itemprop":null,
 		"rel":null,
@@ -191,7 +191,7 @@
 	"wikipedia": {
 		"link": "https://en.wikipedia.org/wiki/User:Edent",
 		"target":null,
-		"alt": "Here's where I edit the world's best encyclopedia",
+		"alt": "My Wikipedia profile",
 		"text":"Wikipedia",
 		"itemprop":"sameAs",
 		"rel":"me",
@@ -200,7 +200,7 @@
 	"slideshare": {
 		"link": "https://www.slideshare.net/edent",
 		"target":null,
-		"alt": "Some of my presentations",
+		"alt": "Some of my presentations on SlideShare",
 		"text":"Slide<wbr>Share",
 		"itemprop":"sameAs",
 		"rel":"me",
@@ -215,11 +215,20 @@
 		"rel":null,
 		"class":null
 	},
+	"mastodon": {
+		"link": "https://mastodon.social/@edent",
+		"target":null,
+		"alt": "Mastodon - the distributed social network",
+		"text":"Mastodon",
+		"itemprop":"sameAs",
+		"rel":"me",
+		"class":"u-url"
+	},
 	"html5": {
 		"link": "https://github.com/edent/edent.tel",
 		"target":null,
-		"alt": "The HTML5 Shield",
-		"text":"Source code",
+		"alt": "Source code of this site",
+		"text":"Source code of this site",
 		"itemprop":null,
 		"rel":null,
 		"class":null
