@@ -5,16 +5,13 @@ $html = '<!doctype html>
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Terence Eden\'s Contact Details</title>
-	<meta name="description" content="@edent all over the web">
-	<meta name="author" content="Terence Eden">
+	<title>Cristian Serey\'s Contact Details</title>
+	<meta name="description" content="Cristian Serey\'s Contact Details">
+	<meta name="author" content="Cristian Serey">
 
-	<meta name="twitter:card" content="summary" />
-	<meta name="twitter:creator" content="@edent" />
-	<meta property="og:url" content="https://edent.tel/" />
-	<meta property="og:title" content="Contact @edent" />
-	<meta property="og:description" content="Terence Eden\'s contact details - voice, text, fax. OK. Maybe not fax…" />
-	<meta property="og:image" content="https://edent.tel/preview.png" />
+	<meta property="og:url" content="https://cristian.tel/" />
+	<meta property="og:title" content="Contact Cristiant" />
+	<meta property="og:description" content="Cristian Serey\'s contact details - voice, text, email" />
 	<meta property="og:image:width"  content="380" />
 	<meta property="og:image:height" content="380" />
 
@@ -22,7 +19,6 @@ $html = '<!doctype html>
 	<link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
 	<link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
 	<link rel="manifest" href="/manifest.json">
-	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
 	<meta name="theme-color" content="#ffffff">
 
 	<style>';
@@ -40,10 +36,9 @@ $html .='</style>
 	<div class="speaker"></div>
 	<div class="screen">
 		<div itemscope itemtype="http://schema.org/Person" class="h-card" rel="me">
-			<h1 itemprop="name" class="p-name">Terence Eden</h1>
-			<p itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"><span itemprop="addressLocality">Oxford</span>, <span itemprop="addressCountry">UK</span></p>
-			<p class="p-note">Currently running <span itemprop="jobTitle">Open Standards</span> for the <span itemprop="worksFor">UK Government Digital Service.</span></p>
-			<p title="I speak a little Chinese" lang="zh">我说一点中文.</p>
+			<h1 itemprop="name" class="p-name">Cristian Serey</h1>
+			<p itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"><span itemprop="addressLocality">Santiago</span>, <span itemprop="addressCountry">CL</span></p>
+			<p class="p-note">Currently An <span itemprop="jobTitle">Independent Developer</span></p>
 			<p><a href="vcard.php" class="download">Download my contact details.</a></p>
 			<ul>';
 
