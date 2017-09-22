@@ -2,68 +2,50 @@
 	"avatar": {
 		"link": "",
 		"target":null,
-		"alt": "Terence Eden has a beard and is smiling. His hair is longer than yours.",
-		"text":"Terence Eden",
+		"alt": "Cristian Serey is a simple man",
+		"text":"Cristian Serey",
 		"itemprop":null,
 		"rel":null,
 		"class":"square u-photo"
 	},
 	"phone": {
-		"link": "tel:+447717512963",
+		"link": "tel:+56978914547",
 		"target":"_self",
-		"alt": "Call Terence Eden's mobile phone",
-		"text":"+44 7717 512 963",
+		"alt": "Call Cristian's mobile phone",
+		"text":"+56 9 7891 4547",
 		"itemprop":"telephone",
 		"rel":null,
 		"class":null
 	},
 	"signal": {
-		"link": "sms:+447717512963",
+		"link": "sms:+56978914547",
 		"target":"_self",
-		"alt": "Send an SMS to Terence",
+		"alt": "Send an SMS to Cristian",
 		"text":"Signal",
 		"itemprop":null,
 		"rel":null,
 		"class":null
 	},
 	"mail": {
-		"link": "mailto:contact@shkspr.mobi",
+		"link": "mailto:cristian.serey@gmail.com",
 		"target":"_self",
-		"alt": "Email Terence Eden",
+		"alt": "Email Cristian Serey",
 		"text":"Personal Email",
 		"itemprop":"email",
 		"rel":"me",
 		"class":"u-email"
 	},
 	"email": {
-		"link": "mailto:terence.eden@digital.cabinet-office.gov.uk.spam",
+		"link": "mailto:cristian.serey@gmail.com",
 		"target":"_self",
-		"alt": "Email Terence Eden's work address",
+		"alt": "Email Cristian Serey's work address",
 		"text":"Work Email",
 		"itemprop":"email",
 		"rel":"me",
 		"class":"u-email"
 	},
-	"twitter": {
-		"link": "https://twitter.com/edent",
-		"target":null,
-		"alt": "Twitter",
-		"text":"@edent",
-		"itemprop":"sameAs",
-		"rel":"me",
-		"class":"u-url"
-	},
-	"wordpress": {
-		"link": "https://shkspr.mobi/blog/",
-		"target":null,
-		"alt": "Read Terence's blog",
-		"text":"Blog",
-		"itemprop":"sameAs",
-		"rel":"me",
-		"class":"u-url"
-	},
 	"whatsapp": {
-		"link": "https://api.whatsapp.com/send?phone=447717512963",
+		"link": "https://api.whatsapp.com/send?phone=56978914547",
 		"target":null,
 		"alt": "Send WhatsApp message",
 		"text":"Whats<wbr>App",
@@ -72,7 +54,7 @@
 		"class":null
 	},
 	"telegram": {
-		"link": "https://t.me/edent",
+		"link": "https://t.me/CristAlex",
 		"target":null,
 		"alt": "Send a message on Telegram",
 		"text":"Telegram",
@@ -80,17 +62,8 @@
 		"rel":null,
 		"class":null
 	},
-	"wechat": {
-		"link": "weixin://",
-		"target":"_self",
-		"alt": "Use WeChat - the popular Chinese messaging service",
-		"text":"<span lang=\"zh\" style=\"margin: 0 1em 0 1em; font-size: 1.25em;\">微信</span>",
-		"itemprop":null,
-		"rel":null,
-		"class":null
-	},
 	"github": {
-		"link": "https://github.com/edent",
+		"link": "https://github.com/sereyonose",
 		"target":null,
 		"alt": "GitHub code",
 		"text":"GitHub",
@@ -99,34 +72,16 @@
 		"class":"u-url"
 	},
 	"linkedin": {
-		"link": "https://linkedin.com/in/TerenceEden/",
+		"link": "https://linkedin.com/in/cristianserey/",
 		"target":null,
-		"alt": "LinkedIn - the boring social network",
+		"alt": "LinkedIn",
 		"text":"LinkedIn",
 		"itemprop":"sameAs",
 		"rel":"me",
 		"class":"u-url"
 	},
-	"lock": {
-		"link": "https://keybase.io/edent",
-		"target":null,
-		"alt": "PGP Key and Encryption Details from Keybase",
-		"text":"PGP",
-		"itemprop":"sameAs",
-		"rel":"me",
-		"class":"u-url"
-	},
-	"skype": {
-		"link": "skype:Terence.Eden",
-		"target":"_self",
-		"alt": "Please don't Skype me!",
-		"text":"Skype",
-		"itemprop":"sameAs",
-		"rel":null,
-		"class":null
-	},
 	"wire": {
-		"link": "sms:+447717512963",
+		"link": "sms:+56978914547",
 		"target":"_self",
 		"alt": "Wire encrypted messaging",
 		"text":"Wire",
@@ -134,98 +89,8 @@
 		"rel":null,
 		"class":null
 	},
-	"youtube": {
-		"link": "https://youtube.com/edent",
-		"target":null,
-		"alt": "Videos of Terence Eden on YouTube",
-		"text":"YouTube",
-		"itemprop":"sameAs",
-		"rel":"me",
-		"class":"u-url"
-	},
-	"vimeo": {
-		"link": "https://vimeo.com/edent",
-		"target":null,
-		"alt": "Vimeo videos of Terence",
-		"text":"Vimeo",
-		"itemprop":null,
-		"rel":null,
-		"class":null
-	},
-	"paypal": {
-		"link": "https://paypal.me/edent/gbp10",
-		"target":null,
-		"alt": "Send Terence money using PayPal",
-		"text":"Pay Me",
-		"itemprop":null,
-		"rel":null,
-		"class":null
-	},
-	"amazon": {
-		"link": "https://amzn.to/2o95rA8",
-		"target":null,
-		"alt": "Buy Terence a gift from Amazon",
-		"text":"Wishlist",
-		"itemprop":null,
-		"rel":null,
-		"class":null
-	},
-	"stackoverflow": {
-		"link": "https://stackoverflow.com/users/1127699/terence-eden",
-		"target":null,
-		"alt": "StackOverflow profile",
-		"text":"Stack Overflow",
-		"itemprop":"sameAs",
-		"rel":"me",
-		"class":"u-url"
-	},
-	"flickr": {
-		"link": "https://www.flickr.com/people/edent",
-		"target":null,
-		"alt": "My Photos on flikr",
-		"text":"flickr",
-		"itemprop":null,
-		"rel":null,
-		"class":null
-	},
-	"wikipedia": {
-		"link": "https://en.wikipedia.org/wiki/User:Edent",
-		"target":null,
-		"alt": "My Wikipedia profile",
-		"text":"Wikipedia",
-		"itemprop":"sameAs",
-		"rel":"me",
-		"class":"u-url"
-	},
-	"slideshare": {
-		"link": "https://www.slideshare.net/edent",
-		"target":null,
-		"alt": "Some of my presentations on SlideShare",
-		"text":"Slide<wbr>Share",
-		"itemprop":"sameAs",
-		"rel":"me",
-		"class":"u-url"
-	},
-	"tumblr": {
-		"link": "https://fiverfun.tumblr.com/",
-		"target":null,
-		"alt": "Cool gifts under a fiver",
-		"text":"tumblr",
-		"itemprop":null,
-		"rel":null,
-		"class":null
-	},
-	"mastodon": {
-		"link": "https://mastodon.social/@edent",
-		"target":null,
-		"alt": "Mastodon - the distributed social network",
-		"text":"Mastodon",
-		"itemprop":"sameAs",
-		"rel":"me",
-		"class":"u-url"
-	},
 	"html5": {
-		"link": "https://github.com/edent/edent.tel",
+		"link": "https://github.com/sereyonose/edent.tel/tree/cristian.tel",
 		"target":null,
 		"alt": "Source code of this site",
 		"text":"Source code of this site",
