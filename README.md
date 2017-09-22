@@ -1,7 +1,9 @@
-# edent.tel
-The site which powers https://edent.tel/
+# cristian.tel
+The site which powers https://cristian.tel/
 
 A semantic "about" page.
+
+Forked from https://github.com/edent/edent.tel
 
 ## Licenses
 
