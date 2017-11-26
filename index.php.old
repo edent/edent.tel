@@ -44,14 +44,13 @@ $html .='</style>
 			<p itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"><span itemprop="addressLocality">Oxford</span>, <span itemprop="addressCountry">UK</span></p>
 			<p class="p-note">Currently running <span itemprop="jobTitle">Open Standards</span> for the <span itemprop="worksFor">UK Government Digital Service.</span></p>
 			<p title="I speak a little Chinese" lang="zh">我说一点中文.</p>
-			<p><a href="vcard.php" class="download">Download my contact details.</a></p>
-			<ul>';
+			<p><a href="vcard.php" class="download">Download my contact details.</a></p>';
 
 	$str = file_get_contents('config.json');
 	$json = json_decode($str, true);
 
 	foreach ($json as $key => $img) {
-		$html .= '<li class="icon">';
+		$html .= '<div class="icon">';
 			$link     = ($img["link"]     != null) ? "href=\"{$img["link"]}\"" : "";
 			$itemprop = ($img["itemprop"] != null) ? "itemprop=\"{$img["itemprop"]}\"" : "";
 			$rel      = ($img["rel"]      != null) ? "rel=\"{$img["rel"]}\"" : "";
@@ -62,11 +61,11 @@ $html .='</style>
 			$svg = generate_svg($key, $img["alt"]);
 
 			$html .= "<a {$link} {$itemprop} {$rel} {$class} {$target}>";
+			$html .= "<span>";
 			$html .= 	$svg;
-			$html .= "<span aria-hidden=\"true\">";
 			$html .= 	"{$text}";
 			$html .= "</span></a>";
-		$html .= "</li>";
+		$html .= "</div>";
 	}
 
 	function generate_svg($title,$alt){
@@ -77,20 +76,18 @@ $html .='</style>
 			$start ='<svg
 							role="img"
 							aria-labelledby="'.$title.'-title"
-							class="square" ';
-			$title = 			'<title id="'.$title.'-title">'.$alt.'</title>';
+							class="square"
+							viewBox="0 0 512 512">
+							<title id="'.$title.'-title">'.$alt.'</title>';
 
-			//	Augment the original <svg> tag
-			$svg = str_replace("<svg ",$start, $svg_file);
-
- 			//	And add the <title> tag
-			$svg = substr_replace($svg, $title, strpos($svg, ">")+1, 0 );
+			//	Replace the original <svg> tag and add the <title> tag
+			$svg = $start . substr( $svg_file, strpos($svg_file, ">")+1 );
 
 			//	Remove unecessary whitespace
 			return preg_replace('/\s+/', ' ',$svg);
 		}
 
-$html .= '</ul>		</div>
+$html .= '		</div>
 	</div>
 	<div class="speaker" id="bottomspeaker"></div>
 </div>
@@ -98,14 +95,13 @@ $html .= '</ul>		</div>
 </html>';
 
 //	Minify
-$html = str_replace(array("\r", "\n", "\t"), ' ', $html);
+$html = str_replace(array("\r", "\n", "\t"), '', $html);
 $html = str_replace(array("   "), ' ', $html);
 $html = str_replace(array("> <"), "><", $html);
 $html = str_replace(array("\" >"), "\">", $html);
 $html = str_replace(array("  "), ' ', $html);
 $html = str_replace(array("\" />"), "\"/>", $html);
 $html = str_replace(array("   "), ' ', $html);
-$html = str_replace(array("> <"), "><", $html);
 
 echo $html;
 die();

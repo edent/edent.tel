@@ -35,8 +35,8 @@
 		"rel":"me",
 		"class":"u-email"
 	},
-	"email": {
-		"link": "mailto:terence.eden@digital.cabinet-office.gov.uk.spam",
+	"govuk": {
+		"link": "mailto:edent@digital.cabinet-office.gov.uk",
 		"target":"_self",
 		"alt": "Email Terence Eden's work address",
 		"text":"Work Email",
