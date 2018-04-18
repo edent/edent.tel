@@ -125,15 +125,6 @@
 		"rel":null,
 		"class":null
 	},
-	"wire": {
-		"link": "sms:+447717512963",
-		"target":"_self",
-		"alt": "Wire encrypted messaging",
-		"text":"Wire",
-		"itemprop":null,
-		"rel":null,
-		"class":null
-	},
 	"youtube": {
 		"link": "https://youtube.com/edent",
 		"target":null,
